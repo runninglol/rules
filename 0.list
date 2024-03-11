@@ -1,0 +1,16 @@
+#Reject
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/reject.list,REJECT
+# Streaming
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluUSA/HuluUSA.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/streaming.list,🌐 Proxy
+# Domains
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list,🌐 Proxy
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/domain.list,🌐 Proxy
+# CN
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list,DIRECT
