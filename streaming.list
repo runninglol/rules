@@ -1,5 +1,4 @@
 # Streaming Media
-
 #Hulu
 DOMAIN-KEYWORD,hulu
 #Plex
@@ -27,14 +26,18 @@ DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,adrise.tv
 #Freevee
 DOMAIN-SUFFIX,akamaihd.net
-
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,cbsnews.com
-DOMAIN-SUFFIX,mybtv.net
+#Roku Channel
+DOMAIN-SUFFIX,roku.com
 #TwitchTV
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
 #Spotify
 DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,akamaihd.net
+#Others
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cbsnews.com
+DOMAIN-SUFFIX,mybtv.net
