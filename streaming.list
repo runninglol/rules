@@ -1,6 +1,4 @@
 # Streaming Media
-#Hulu
-DOMAIN-KEYWORD,hulu
 #Plex
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
@@ -24,8 +22,6 @@ DOMAIN-SUFFIX,tubitv.com
 DOMAIN-SUFFIX,tubi.video
 DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,adrise.tv
-#Freevee
-DOMAIN-SUFFIX,akamaihd.net
 #Roku Channel
 DOMAIN-SUFFIX,roku.com
 #TwitchTV
