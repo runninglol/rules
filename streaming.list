@@ -1,39 +1,45 @@
 # Streaming Media
-#Plex
+# Plex
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,plexvideos.com
 DOMAIN-SUFFIX,amagi.tv
 DOMAIN-SUFFIX,cloudfront.net
-#SlingTV
+# SlingTV
 DOMAIN-SUFFIX,dishworld.com
 DOMAIN-SUFFIX,movenetworks.com
 DOMAIN-SUFFIX,movetv.com
 DOMAIN-SUFFIX,sling.com
 DOMAIN-SUFFIX,slinginternational.com
-#PeacockTV
+# FireTV Freevee
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon.dev
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,amagi.tv
+# PeacockTV
 DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,PeacockMobile*
 #Pluto
 DOMAIN-SUFFIX,pluto.tv
 DOMAIN-SUFFIX,plutotv.net
-#Tubi
+# Tubi
 DOMAIN-SUFFIX,tubitv.com
 DOMAIN-SUFFIX,tubi.video
 DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,adrise.tv
-#Roku Channel
+# Roku Channel
 DOMAIN-SUFFIX,roku.com
-#TwitchTV
+# TwitchTV
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
-#Spotify
+# Spotify
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,akamaihd.net
-#Others
+# Others
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cbsnews.com
 DOMAIN-SUFFIX,mybtv.net
