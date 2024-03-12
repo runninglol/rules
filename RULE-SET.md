@@ -1,5 +1,5 @@
 # Reject
-RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/reject.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/reject.list
 # Streaming
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluUSA/HuluUSA.list \
@@ -13,12 +13,12 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list \
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/domain.list
 # CN
-RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list
 
 # Others
-#RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list,REJECT \
-#RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list,REJECT \
-#RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list,REJECT \
+#RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list \
+#RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list \
+#RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list \
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list \
 RULE-SET, https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list \
@@ -28,5 +28,5 @@ RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/R
 RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Twitter.list \
 RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list \
 RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list \
-RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list,DIRECT \
-RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list,DIRECT
+RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list \
+RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
