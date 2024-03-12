@@ -1,3 +1,4 @@
 # Rejects
+AND,((DOMAIN-SUFFIX,taobao.com), (SRC-IP,192.168.10.52))
+AND,((DOMAIN-SUFFIX,taobao.com), (SRC-IP,192.168.10.54))
 DOMAIN-SUFFIX,catdot.dianping.com
-DOMAIN-SUFFIX,adashx.m.taobao.com
