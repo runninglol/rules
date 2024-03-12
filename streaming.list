@@ -17,6 +17,8 @@ DOMAIN-SUFFIX,amazon.dev
 DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amagi.tv
+DOMAIN-SUFFIX,cbsnews.com
+DOMAIN-SUFFIX,cloudfront.net
 # PeacockTV
 DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,PeacockMobile*
@@ -40,6 +42,4 @@ DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,akamaihd.net
 # Others
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,cbsnews.com
 DOMAIN-SUFFIX,mybtv.net
