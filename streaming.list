@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amagi.tv
 DOMAIN-SUFFIX,cbsnews.com
 DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,chdrstatic.com
 # PeacockTV
 DOMAIN-SUFFIX,peacocktv.com
 USER-AGENT,PeacockMobile*
