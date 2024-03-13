@@ -37,10 +37,5 @@ DOMAIN-SUFFIX,roku.com
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
-# Spotify
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,akamaihd.net
 # Others
 DOMAIN-SUFFIX,mybtv.net
