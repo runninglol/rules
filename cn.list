@@ -22,3 +22,4 @@ DOMAIN-SUFFIX,jd.hk
 DOMAIN-KEYWORD,meituan
 DOMAIN-SUFFIX,cibn.cc
 DOMAIN-SUFFIX,cibntv.net
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/temp.list
