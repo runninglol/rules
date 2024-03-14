@@ -22,3 +22,5 @@ DOMAIN-SUFFIX,jd.hk
 DOMAIN-KEYWORD,meituan
 DOMAIN-SUFFIX,cibn.cc
 DOMAIN-SUFFIX,cibntv.net
+#IP Range
+IP-ASN,132203,no-resolve
