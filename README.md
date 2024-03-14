@@ -10,10 +10,12 @@ RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/reject.list
 
 # Streaming
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list \
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/streaminggeo.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HuluUSA/HuluUSA.list \
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonPrimeVideo/AmazonPrimeVideo.list \
-RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/streaming.list
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/streaming.list \
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list \
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
 
 # Domains
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list \
