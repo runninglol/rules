@@ -5,12 +5,6 @@ DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,plexvideos.com
 DOMAIN-SUFFIX,amagi.tv
 DOMAIN-SUFFIX,cloudfront.net
-# SlingTV
-DOMAIN-SUFFIX,dishworld.com
-DOMAIN-SUFFIX,movenetworks.com
-DOMAIN-SUFFIX,movetv.com
-DOMAIN-SUFFIX,sling.com
-DOMAIN-SUFFIX,slinginternational.com
 # FireTV Freevee
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazon.dev
@@ -31,8 +25,6 @@ DOMAIN-SUFFIX,tubitv.com
 DOMAIN-SUFFIX,tubi.video
 DOMAIN-SUFFIX,tubi.io
 DOMAIN-SUFFIX,adrise.tv
-# Roku Channel
-DOMAIN-SUFFIX,roku.com
 # TwitchTV
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
