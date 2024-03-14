@@ -8,6 +8,13 @@ DOMAIN-SET,https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/tracking-p
 # Reject
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/reject.list
 
+# Domains
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list \
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list \
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list \
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list \
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/domain.list
+
 # Streaming
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list \
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/streaminggeo.list \
@@ -16,13 +23,6 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/streaming.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
-
-# Domains
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list \
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list \
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list \
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list \
-RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/domain.list
 
 # CN
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list
