@@ -29,5 +29,8 @@ DOMAIN-SUFFIX,adrise.tv
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,ttvnw.net
+# Ted
+DOMAIN-SUFFIX,ted.com
+DOMAIN-SUFFIX,tedcdn.com
 # Others
 DOMAIN-SUFFIX,mybtv.net
