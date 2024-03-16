@@ -1,8 +1,10 @@
 # Domains
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,threads.net
 DOMAIN-KEYWORD,facebook
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,t.co
