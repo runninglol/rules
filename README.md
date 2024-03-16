@@ -28,6 +28,7 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list
 
 # Others
+RULE-SET, https://ruleset.isagood.day/netflix.conf \
 RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list \
 RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list \
 RULE-SET, https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list \
