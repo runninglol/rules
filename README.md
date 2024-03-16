@@ -1,3 +1,6 @@
+# blackmatrix7/ios_rule_script
+https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
+
 # AdGuard
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/base-filter.txt \
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/chinese-filter.txt \
