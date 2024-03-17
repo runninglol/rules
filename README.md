@@ -29,7 +29,8 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list
 
 # CN
-RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list
+RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list \
+RULE-SET,https://raw.githubusercontent.com/missuo/ASN-China/main/ASN.China.list
 
 # Others
 RULE-SET, https://ruleset.isagood.day/netflix.conf \
