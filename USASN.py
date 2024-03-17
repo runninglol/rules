@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 # Define the URL to scrape
-url = 'https://bgp.he.net/country/CN'
+url = 'https://bgp.he.net/country/US'
 
 # Define the headers with the User-Agent for the latest macOS Safari browser
 headers = {
