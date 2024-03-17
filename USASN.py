@@ -19,6 +19,6 @@ for row in table.find_all('tr'):
 timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 with open('USASN.list', 'w') as file:
-    file.write("# File generated at EST " + timestamp + "\n")
+    file.write("# Generated from https://bgp.he.net/country/US at EST " + timestamp + "\n")
     for item in selected_data:
         file.write(item + '\n')
