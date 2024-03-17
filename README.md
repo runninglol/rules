@@ -1,3 +1,6 @@
+# Crontab
+0 2 * * 1,5 cd ~/rules && sh rules.sh
+
 # blackmatrix7/ios_rule_script
 https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
 
