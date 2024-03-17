@@ -2,9 +2,16 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-# Fetch the webpage content
-url = 'https://bgp.he.net/country/US'
-response = requests.get(url)
+# Define the URL to scrape
+url = 'https://bgp.he.net/country/CN'
+
+# Define the headers with the User-Agent for the latest macOS Safari browser
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15'
+}
+
+# Make the request with the specified headers
+response = requests.get(url, headers=headers)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # Extract content from tbody table where td[2] is not empty or td[3] is not 0
