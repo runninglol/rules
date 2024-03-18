@@ -1,5 +1,4 @@
-# blackmatrix7/ios_rule_script
-https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
+# For Self Use
 
 # AdGuard
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/geekdada/surge-list/domain-set/base-filter.txt \
@@ -32,6 +31,9 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/runninglol/rules/main/cn.list \
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN.list \
 RULE-SET,https://raw.githubusercontent.com/missuo/ASN-China/main/ASN.China.list
+
+# blackmatrix7/ios_rule_script
+https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge
 
 # Others
 RULE-SET, https://ruleset.isagood.day/netflix.conf \
