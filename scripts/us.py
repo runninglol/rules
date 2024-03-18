@@ -28,7 +28,7 @@ for row in table.find_all('tr'):
 if len(selected_data) > 300:
     # Write the scraped content to the file with EST timezone timestamp at the beginning
     eastern = pytz.timezone('US/Eastern')
-    est_time = datetime.now(eastern).strftime('%H:%M:%S %m/%d/%Y %Z%z')
+    est_time = datetime.now(eastern).strftime('%H:%M:%S %m/%d/%Y')
 
     with open('USASN.list', 'w') as file:
         file.write("# Generated from https://bgp.he.net/country/US at EST " + est_time + "\n")
