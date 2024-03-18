@@ -3,8 +3,7 @@ name: Auto Update ASN
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    paths: ["scripts/**"]
   schedule:
     - cron:  '0 9 * * *'
 
@@ -32,8 +31,8 @@ jobs:
         timezoneLinux: 'America/New_York'
     - name: Run .py Files
       run: |
-        python CNASN.py
-        python USASN.py
+        python scripts/cn.py
+        python scripts/us.py
     - name: Git Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v5.0.0
       with:
