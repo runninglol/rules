@@ -4,7 +4,7 @@ from datetime import datetime
 import pytz
 
 # Define the URL to scrape
-url = 'https://bgp.he.net/country/US'
+url = 'https://bgp.he.net/country/EG'
 
 # Define the headers with the User-Agent for the latest macOS Safari browser
 headers = {
