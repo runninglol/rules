@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+import pytz
 
-# Fetch the webpage content
+# Define the URL to scrape
 url = 'https://bgp.he.net/country/CN'
 
 # Define the headers with the User-Agent for the latest macOS Safari browser
@@ -23,10 +24,15 @@ for row in table.find_all('tr'):
     if len(columns) > 2 and (columns[1].text.strip() or columns[2].text.strip() != '0'):
         selected_data.append(columns[0].text.strip().replace("AS", "IP-ASN,"))
 
-# Write the scraped content to the file with timestamp at the beginning
-timestamp = datetime.now().strftime('%H:%M:%S %m/%d/%Y')
+# Check if the result contains more than 300 lines, if so, write to file
+if len(selected_data) > 300:
+    # Write the scraped content to the file with EST timezone timestamp at the beginning
+    eastern = pytz.timezone('US/Eastern')
+    est_time = datetime.now(eastern).strftime('%H:%M:%S %m/%d/%Y')
 
-with open('CNASN.list', 'w') as file:
-    file.write("# Generated from https://bgp.he.net/country/CN at EST " + timestamp + "\n")
-    for item in selected_data:
-        file.write(item + '\n')
+    with open('CNASN.list', 'w') as file:
+        file.write("# Generated from https://bgp.he.net/country/CN at EST " + est_time + "\n")
+        for item in selected_data:
+            file.write(item + '\n')
+else:
+    print("Result has less than 300 lines. Not writing to file.")
