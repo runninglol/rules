@@ -2,8 +2,11 @@ name: Auto Update ASN
 
 on:
   push:
-    branches: [ "main" ]
-    paths: ["scripts/**"]
+    branches:
+      - 'main'
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/**'
   schedule:
     - cron:  '0 9 * * *'
 
