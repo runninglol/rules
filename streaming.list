@@ -6,10 +6,6 @@ DOMAIN-SUFFIX,plexvideos.com
 DOMAIN-SUFFIX,amagi.tv
 DOMAIN-SUFFIX,cloudfront.net
 # FireTV Freevee
-DOMAIN-SUFFIX,*amazon.com
-DOMAIN-SUFFIX,amazon.dev
-DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amagi.tv
 DOMAIN-SUFFIX,cbsnews.com
 DOMAIN-SUFFIX,cloudfront.net
