@@ -12,6 +12,25 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,paypal
+# Server
+DOMAIN-SUFFIX,brew.sh
+DOMAIN-SUFFIX,proxmox.com
+DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,debian.map.fastlydns.net
+DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,nodejs.org
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,nodesource.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,servarr.com
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,radarr.video
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,sonarr.tv
+DOMAIN-SUFFIX,prowlarr.com
+DOMAIN-SUFFIX,1337x.to
+DOMAIN-SUFFIX,opensubtitles.com
 # Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
