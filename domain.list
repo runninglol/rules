@@ -1,10 +1,17 @@
 # Domains
-# Instagram
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-KEYWORD,instagr
 DOMAIN-SUFFIX,threads.net
+DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,paypal
 # Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
@@ -26,12 +33,6 @@ IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
-# PayPal
-USER-AGENT,PayPal*
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
 # Tiktok
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
@@ -61,40 +62,3 @@ DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,tiktok
 USER-AGENT,TikTok*
 PROCESS-NAME,com.zhiliaoapp.musically
-# Discord
-DOMAIN-SUFFIX,airhorn.solutions
-DOMAIN-SUFFIX,airhornbot.com
-DOMAIN-SUFFIX,bigbeans.solutions
-DOMAIN-SUFFIX,dis.gd
-DOMAIN-SUFFIX,discord-activities.com
-DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.design
-DOMAIN-SUFFIX,discord.dev
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discord.gift
-DOMAIN-SUFFIX,discord.gifts
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discord.new
-DOMAIN-SUFFIX,discord.store
-DOMAIN-SUFFIX,discord.tools
-DOMAIN-SUFFIX,discordactivities.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.io
-DOMAIN-SUFFIX,discordapp.net
-DOMAIN-SUFFIX,discordapp.page.link
-DOMAIN-SUFFIX,discordcdn.com
-DOMAIN-SUFFIX,discordmerch.com
-DOMAIN-SUFFIX,discordpartygames.com
-DOMAIN-SUFFIX,discordsays.com
-DOMAIN-SUFFIX,discordstatus.com
-DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
-DOMAIN-SUFFIX,watchanimeattheoffice.com
-# Others
-DOMAIN-KEYWORD,facebook
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,yahoo.com
