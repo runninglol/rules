@@ -1,3 +1,7 @@
+# USER-AGENT
+USER-AGENT,TikTok*
+# PROCESS-NAME
+PROCESS-NAME,Spotify*
 # Domains
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
