@@ -24,9 +24,9 @@ for row in table.find_all('tr'):
         selected_data.append(columns[0].text.strip().replace("AS", "IP-ASN,"))
 
 # Write the scraped content to the file with timestamp at the beginning
-timestamp = datetime.now().strftime('%H:%M:%S %m/%d/%Y')
+timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 with open('CNASN.list', 'w') as file:
-    file.write("# Generated from https://bgp.he.net/country/CN at EST " + timestamp + "\n")
+    file.write("# Generated from https://bgp.he.net/country/CN at UTC " + timestamp + "\n")
     for item in selected_data:
         file.write(item + '\n')
