@@ -6,7 +6,7 @@ import pytz
 # Define the URL to scrape
 url = 'https://bgp.he.net/country/US'
 
-# Define the headers with the User-Agent for the latest macOS Safari browser
+# Define the header with the User-Agent for the latest macOS Safari browser
 headers = {
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15'
 }
@@ -21,7 +21,7 @@ table = soup.find('tbody')
 selected_data = []
 for row in table.find_all('tr'):
     columns = row.find_all('td')
-    if len(columns) > 2 and (columns[1].text.strip() or columns[2].text.strip() != '0'):
+    if len(columns) > 2 and (columns[1].text.strip() or columns[2].text.strip() != '0') and columns[0].text.strip().startswith("AS"):
         selected_data.append(columns[0].text.strip().replace("AS", "IP-ASN,"))
 
 # Check if the result contains more than 300 lines, if so, write to file
