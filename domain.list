@@ -5,6 +5,7 @@ PROCESS-NAME,Spotify*
 # Domains
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-KEYWORD,instagr
 DOMAIN-SUFFIX,threads.net
 DOMAIN-KEYWORD,facebook
