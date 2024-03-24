@@ -23,10 +23,14 @@ for row in table.find_all('tr'):
     if len(columns) > 2 and (columns[1].text.strip() or columns[2].text.strip() != '0') and columns[0].text.strip().startswith("AS"):
         selected_data.append(columns[0].text.strip().replace("AS", "IP-ASN,"))
 
-# Write the scraped content to the file with timestamp at the beginning
-timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+# Check if the result contains more than 300 lines, if so, write to file
+if len(selected_data) > 300:
+    # Write the scraped content to the file with timestamp at the beginning
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-with open('CNASN.list', 'w') as file:
-    file.write("# Generated from https://bgp.he.net/country/CN at UTC " + timestamp + "\n")
-    for item in selected_data:
-        file.write(item + '\n')
+    with open('CNASN.list', 'w') as file:
+        file.write("# Generated from https://bgp.he.net/country/CN at UTC " + timestamp + "\n")
+        for item in selected_data:
+            file.write(item + '\n')
+else:
+    print("Result has less than 300 lines. Not writing to file.")
