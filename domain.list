@@ -21,6 +21,11 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,paypal
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,sstatic.net
+DOMAIN-SUFFIX,imgur.com
 # Server
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,proxmox.com
