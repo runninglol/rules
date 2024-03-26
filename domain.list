@@ -12,6 +12,8 @@ DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,facebook
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-KEYWORD,discord
+DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
@@ -19,13 +21,14 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-KEYWORD,discord
-DOMAIN-KEYWORD,paypal
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,sstatic.net
 DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,raindrop.io
+DOMAIN-SUFFIX,rdl.ink
+DOMAIN-SUFFIX,notion.so
 # Server
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,proxmox.com
