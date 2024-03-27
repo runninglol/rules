@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,ray.so
 DOMAIN-SUFFIX,raindrop.io
 DOMAIN-SUFFIX,rdl.ink
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,jsdelivr.net
 # Server
 DOMAIN-SUFFIX,brew.sh
 DOMAIN-SUFFIX,proxmox.com
