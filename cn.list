@@ -4,7 +4,7 @@ USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
 # PROCESS-NAME
 PROCESS-NAME,WeChat
-PROCESS-NAME,Thunder
+PROCESS-NAME,*Thunder*
 PROCESS-NAME,DownloadService // Thunder
 PROCESS-NAME,BaiduNetdisk*
 PROCESS-NAME,Transmission
