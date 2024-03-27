@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
+DOMAIN-KEYWORD,reddit
 DOMAIN-SUFFIX,stackoverflow.com
 DOMAIN-SUFFIX,sstatic.net
 DOMAIN-SUFFIX,imgur.com
@@ -31,6 +31,8 @@ DOMAIN-SUFFIX,ray.so
 DOMAIN-SUFFIX,raindrop.io
 DOMAIN-SUFFIX,rdl.ink
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,jsdelivr.net
 # Server
 DOMAIN-SUFFIX,brew.sh
